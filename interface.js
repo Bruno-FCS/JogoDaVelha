@@ -11,9 +11,9 @@ function handleClick(event){
     let position = square.id
     if(handleMove(position)){
         if(playerTime == 0){
-            setTimeout(() => {alert("O jogo acabou - O venvedor foi O")}, 10)
+            setTimeout(() => {alert("O jogo acabou - O vencedor foi O")}, 10)
         }else{
-            setTimeout(() => {alert("O jogo acabou - O venvedor foi X")}, 10)
+            setTimeout(() => {alert("O jogo acabou - O vencedor foi X")}, 10)
         }
     }
     updateSquare(position)
